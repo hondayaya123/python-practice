@@ -158,3 +158,19 @@ print (stat.mean([1,2,3,4,5,100])) #平均數
 print (stat.median([1,2,3,3,4,5,100])) #中位數
 print (stat.stdev([1,2,3,4,5,100])) #標準差
 #隨機選取-----------------------------------------------#
+
+
+#類別練習---------------------------------------------#
+import ClassTest as ph
+
+print (ph.Name("klcheng","Chen").firstName)
+print (ph.Name("klcheng","Chen").lastName)
+ph.Phone("ios","8",False).showInfo()
+
+file1 = ph.OpenFile("data.txt")
+file1.open()
+print(file1.read())
+
+#print (ph.OpenFile("data.txt").open())
+
+#類別練習---------------------------------------------#
